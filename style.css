@@ -1,0 +1,204 @@
+
+.cim1{
+    color:rgb(0, 0, 0);
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 1px 1px #f700ff;
+}
+
+.BBOX{
+    display: flex;
+    width: 100%;
+}
+
+.box1{
+     width: 600px;
+     height: 525px;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, .2);
+     backdrop-filter: blur(10px);
+     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+     color: #73ff00;
+     border-radius: 10px;
+     padding: 0px 40px 40px;
+
+     margin: 10px;
+}
+
+.box2{
+    width: 600px;
+    height: 425px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #73ff00;
+    border-radius: 10px;
+    padding: 0px 40px 40px;
+
+    margin: 10px;
+}
+
+.box3{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #73ff00;
+    border-radius: 10px;
+    padding: 30px 40px 40px;
+
+    margin: 10px;
+}
+
+.box33{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 40px 40px;
+    margin: 10px;
+}
+
+.box4{
+    width: 1785px;
+    height: 230px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #73ff00;
+    border-radius: 10px;
+    padding: 30px 40px 40px;
+
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.box5{
+    width: 218ch;
+    height: 370px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #73ff00;
+    border-radius: 10px;
+    padding: 30px 40px 40px;
+
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.cim2 {
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+
+.boxtext {
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.boxtext2 {
+    position: fixed;
+    justify-content: space-between;
+    margin-left: 640px;
+}
+
+
+.boxtext3 {
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: left;
+    text-shadow: 1px 1px #000000;
+}
+
+.gif01 {
+    position: static;
+    border-radius: 10px;
+    width:55ch;
+    margin-left: -24px;
+}
+
+.img {
+    position: fixed;
+}
+
+.pic3 {
+    border-radius: 60%;
+    box-shadow: 1px 2px #5900ff;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: transparent;
+    overflow: hidden;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    background-image: linear-gradient(to right, red , rgb(17, 0, 255));
+    width: 27.5ch;
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style:italic;
+    font-weight: bolder;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: black;
+  }
+
+
+
+  
+  
+
+   /* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+
+    font-size: 24px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 35px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  } 
